@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="windows-1252">
   <meta http-equiv="refresh" content="3">
   <title>MONITOR DE CHAMADA</title>
 
@@ -15,8 +15,8 @@
 
     header {
       height: 105px;
-      display: grid;
-      grid-template-columns: 220px 1fr 160px;
+      position: relative;
+      display: flex;
       align-items: center;
       padding: 0 45px;
       border-bottom: 4px solid #0057b8;
@@ -29,14 +29,16 @@
     }
 
     .titulo-topo {
-      text-align: center;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
       font-size: 44px;
       font-weight: bold;
       color: #0057b8;
     }
 
     .relogio {
-      text-align: right;
+      margin-left: auto;
       font-size: 36px;
       font-weight: bold;
       color: #0057b8;
