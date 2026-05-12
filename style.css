@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: white;
+  color: #111;
+}
+
+header {
+  height: 105px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 0 45px;
+  border-bottom: 4px solid #0057b8;
+}
+
+.logo-img {
+  max-width: 190px;
+  max-height: 85px;
+  object-fit: contain;
+}
+
+.titulo-topo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 44px;
+  font-weight: bold;
+  color: #0057b8;
+}
+
+.relogio {
+  margin-left: auto;
+  font-size: 36px;
+  font-weight: bold;
+  color: #0057b8;
+}
+
+main {
+  padding: 35px 45px;
+}
+
+.chamada-atual {
+  background: #eef4ff;
+  border-radius: 24px;
+  padding: 35px 45px;
+  border: 3px solid #0057b8;
+}
+
+.label {
+  font-size: 30px;
+  color: #0057b8;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.paciente {
+  font-size: 80px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.orientacao {
+  background: #0057b8;
+  color: white;
+  font-size: 38px;
+  font-weight: bold;
+  padding: 22px;
+  border-radius: 18px;
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.hora {
+  text-align: center;
+  font-size: 26px;
+  margin-top: 22px;
+  color: #333;
+}
+
+.ultimos {
+  margin-top: 25px;
+}
+
+.titulo-ultimos {
+  font-size: 28px;
+  color: #0057b8;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.linha-ultimo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f1f1f1;
+  border-radius: 12px;
+  padding: 14px 24px;
+  margin-bottom: 10px;
+  font-size: 32px;
+  font-weight: bold;
+}
